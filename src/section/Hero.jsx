@@ -1,5 +1,6 @@
 import React from 'react';
 import HeroText from '../components/HeroText';
+import ParallaxBackground from '../components/Parallaxbackground';
 
 const Hero = () => {
   return (
@@ -8,6 +9,7 @@ const Hero = () => {
                  min-h-screen overflow-hidden c-space"
     >
       <HeroText />
+      <ParallaxBackground />
     </section>
   );
 };
